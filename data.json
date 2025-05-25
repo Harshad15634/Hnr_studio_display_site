@@ -1,0 +1,28 @@
+{
+  "games": {
+    "game1": {
+      "name": "Once Upon A Stone",
+      "shortDescription": "An exciting adventure game where you control a rolling stone through challenging landscapes.",
+      "longDescription": "Once Upon A Stone is a thrilling adventure game where you navigate a rolling stone through various challenging terrains. With simple controls but increasingly difficult levels, this game will test your reflexes and strategic thinking. Collect gems, avoid obstacles, and reach the finish line in this beautifully designed mobile game.",
+      "imageUrl": "https://play-lh.googleusercontent.com/.../once-upon-a-stone.jpg",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.HnRStudio.onceuponarock",
+      "youtubeTrailerUrl": "https://www.youtube.com/watch?v=VRYxTYW3MXc"
+    },
+    "game2": {
+      "name": "Drag Down",
+      "shortDescription": "A fast-paced puzzle game that tests your reflexes and strategy.",
+      "longDescription": "Drag Down is an addictive puzzle game that challenges your quick thinking and reflexes. Swipe to match colors, solve puzzles, and advance through hundreds of levels. With vibrant graphics and smooth gameplay, Drag Down is perfect for quick gaming sessions or long playthroughs.",
+      "imageUrl": "https://play-lh.googleusercontent.com/.../drag-down.jpg",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.HandRStudio.DragDownV2",
+      "youtubeTrailerUrl": "https://www.youtube.com/watch?v=m9PFJ8lZ6mk"
+    },
+    "game3": {
+      "name": "Lockdown Area",
+      "shortDescription": "Navigate through restricted zones in this thrilling action-packed game.",
+      "longDescription": "Lockdown Area puts you in the middle of high-security zones where you must stealthily navigate through obstacles, avoid detection, and complete missions. With multiple levels of increasing difficulty and various enemy types, this game offers hours of engaging gameplay with its immersive environments and tense moments.",
+      "imageUrl": "https://play-lh.googleusercontent.com/.../lockdown-area.jpg",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.HnrStudio.LockDownAreaV2",
+      "youtubeTrailerUrl": "https://www.youtube.com/watch?v=6j6N2YaG48M"
+    }
+  }
+}

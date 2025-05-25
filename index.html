@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HnrStudio - Mobile Games</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-database-compat.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="HnrStudio Logo" class="logo-image">
+                <div class="logo-text">
+                    <h1>Hnr<span>Studio</span></h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="hero">
+            <div class="hero-content">
+                <h2>Game List</h2>
+                <p>by HnrStudio</p>
+            </div>
+        </section>
+
+        <section id="games">
+            <div class="games-grid" id="games-container">
+                <div class="loading-spinner">
+                    <div class="spinner"></div>
+                    <p>Loading games...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <div class="about-content">
+                <p>Started Gamedev as a hobby and ended up making three games and counting.</p>
+                <p>I am excited to hear your feebacks on all of them.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-content">
+                <p>For inquiries and support:</p>
+                <div class="email-display">
+                    <i class="fas fa-envelope"></i>
+                    <span>hnrstudio21@gmail.com</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="copyright">
+                    &copy; <span id="current-year"></span> HnrStudio
+                </div>
+                <div class="social-links">
+                    <a href="https://www.youtube.com/channel/UC6iOq49mn_VhoSCJxdj8_6w" class="social-icon" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Game Modal -->
+    <div class="modal" id="game-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body" id="modal-body">
+                <!-- Content loaded dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
